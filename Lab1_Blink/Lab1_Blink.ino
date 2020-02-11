@@ -53,8 +53,15 @@ void timedBlink(int interval) {
     digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
     delay(interval*4);                       // wait for a second
 }
+
 // the loop function runs over and over again forever
 void loop() 
 {
-  timedBlink(250);
+  for(int i = 0; i < 100; i++){
+    dimmer(10, i);
+  }
+  for(int i = 100; i > 0; i--)
+  {
+    dimmer(10, i);
+  }
 }
