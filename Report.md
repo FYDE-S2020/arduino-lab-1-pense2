@@ -32,31 +32,34 @@ Team Number: We have a team number?
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    Sent 6 bytes in 0.51ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    Sent 5 bytes in 0.12ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI can send data as fast as it needs to, while UART has to depend on the input speed
 
 10. list one pro and one con of UART
 
-    your answer here
+    Pro: Can send data at any point
+    Con: Slower than SPI
 
 11. list one pro and one con of SPI
 
-    your answer here
+    Pro: Faster than UART
+    Con: Can only send data in a constant stream
 
 12. list one pro and one con of I2C
 
-    your answer here
+    Pro: Can use multiple slave devices
+    Con: Requires pull up resistors
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    Their lines are open-drain
 
 ## Screenshots
 
@@ -67,7 +70,7 @@ Procedure A, step 4:
 ![C:\Users\jacks\Documents\GitHub\arduino-lab-1-pense2\img](img/placeholder.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![C:\Users\jacks\Documents\GitHub\arduino-lab-1-pense2\img](img/placeholder.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![C:\Users\jacks\Documents\GitHub\arduino-lab-1-pense2\img](img/placeholder.png)
